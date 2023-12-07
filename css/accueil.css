@@ -1,0 +1,66 @@
+body{
+    font-family: Arial, sans-serif;
+    margin-right: 50%;
+    background: #FBEEC1;
+
+}
+html, body {
+    padding:0;
+    margin:0;
+  }
+header{
+    border-style:solid ;
+    width: 100%;
+    background: linear-gradient(to top, #FBEEC1, rgba(225, 169, 97, 1));
+}
+#progress-bar-container {
+    width: 80%; /* Ajustez la largeur de la barre de progression */
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: rgba(251, 238, 193, 1);
+}
+
+#progress-bar {
+    height: 20px; /* Ajustez la hauteur de la barre de progression */
+    width: 0;
+    background-color: rgba(218, 173, 134, 1); /* Couleur initiale de la barre de progression */
+    border-radius: 5px;
+    transition: width 0.3s ease; /* Animation de transition */
+}
+
+#title{
+    padding-left: 50%;
+}
+
+#question-container{
+    margin-top: 5px;
+    margin-left: 10%;
+    background-color: rgba(229, 180, 112, 1);
+    border-radius: 8px;
+    box-shadow: 3px;
+    max-width: 400px;
+}
+#choix{
+    padding-left: 45%;
+}
+#answer-List{
+    padding-left: 50%;
+}
+#button2{
+    margin-left: 100px;
+}
+#button1{
+    margin-left: 10%;
+}
+#button3{
+    margin-left: 100px;
+}
+.square-button{
+    color: rgba(67, 53, 35, 1);
+    background-color: rgba(188, 152, 106, 1);
+    text-align:center ;
+    border-color: transparent;
+    border-radius: 8px;
+    padding: 30px 30px;
+}
+
