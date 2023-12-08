@@ -1,24 +1,36 @@
-//const data = JSON.parse("...");
+var questionsData;
+var questionNumber = 0;
 
 const questionContainer = document.getElementById('question-container');
 const questionText = document.getElementById('question-text');
 const answersContainer = document.getElementById('answers-container');
+const answersList = document.getElementById('answers-list');
 const progressBar = document.getElementById('progress-bar');
 
-const btnAnswer1 = document.getElementById('button1');
-const btnAnswer2 = document.getElementById('button2');
-const btnAnswer3 = document.getElementById('button3');
+const buttonContainer = document.getElementById('button-container');
 
-const btnMode = document.getElementById('...');
+//const btnMode = document.getElementById('...');
 
 window.onload = () => { init(); }
 
 function init(){
-    btnAnswer1.addEventListener('click',() => {});
-    btnAnswer2.addEventListener('click',() => {});
-    btnAnswer3.addEventListener('click',() => {});
+    for(let i = 0 ; i < buttonContainer.children.length ; i++){
+        buttonContainer.children[i].addEventListener('click',() => {
+            chooseAnswer(i);
+        });
+    }
 
-    btnMode.addEventListener('click',() => {});
+    //btnMode.addEventListener('click',() => {});
+
+    fetch('../json/data.json')
+        .then(response => response.json())
+        .then(data => {
+            questionsData = data;
+            displayNextQuestion();
+        })
+        .catch(error => {
+            console.error('Erreur lors du chargement du fichier JSON', error);
+        });
 }
 
 function updateProgressBar(percentage) {
@@ -33,7 +45,16 @@ function updateProgressBar(percentage) {
 // (vous pouvez appeler cette fonction avec le pourcentage de progression et la couleur souhaités)
 updateProgressBar(30);
 
-function chooseAnswer(number){}
-function displayNextQuestion(){}
-function changeMode(){}
-function updateEarthState(){}
+function chooseAnswer(number){
+    displayNextQuestion();
+}
+
+function displayNextQuestion(){
+    questionText.textContent = questionsData.questions[questionNumber].text;
+    for(let i = 0 ; i < answersList.children.length ; i++){
+        answersList.children[i].innerHTML = '<h3>' + questionsData.questions[questionNumber].answers[i].text + '</h3>';
+    }
+    questionNumber += 1;
+}
+//function changeMode(){}
+//function updateEarthState(){}
