@@ -10,8 +10,6 @@ const answersList = document.getElementById('answers-list');
 const progressBar = document.getElementById('progress-bar');
 const buttonContainer = document.getElementById('button-container');
 
-//const btnMode = document.getElementById('...');
-
 window.onload = () => { init(); }
 
 function init(){
