@@ -14,4 +14,15 @@ function updateProgressBar(percentage) {
 
 // Exemple d'utilisation pour mettre à jour la progression
 // (vous pouvez appeler cette fonction avec le pourcentage de progression et la couleur souhaités)
-updateProgressBar(100);
+updateProgressBar(10);
+
+document.addEventListener('DOMContentLoaded', function () {
+    const themeSwitch = document.querySelector('.theme-switch__checkbox');
+    const body = document.querySelector('body');
+
+    themeSwitch.addEventListener('change', function () {
+      // Si le bouton est coché, active le thème sombre, sinon active le thème clair
+      body.classList.toggle('dark-theme', themeSwitch.checked);
+      body.classList.toggle('light-theme', !themeSwitch.checked);
+    });
+  });

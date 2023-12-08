@@ -3,33 +3,82 @@ body{
     height: 100%;
     font-family: Arial, sans-serif;
     margin: 0; 
-    background: #FFFF;
     display: flex; 
     flex-direction: column; 
 }
+.light-theme {
+    background-color: #FFFF;/
+  }
+  
+  /* Styles pour le thème sombre */
+  .dark-theme {
+    background-color: rgba(18, 21, 38, 1);
+
+  }
+  
+  .light-theme .square-button {
+    background-color: rgba(142, 188, 106, 1);
+    color: rgba(67, 53, 35, 1);
+}
+
+
+
+/* Styles pour le thème sombre sur les éléments spécifiques */
+.dark-theme .square-button {
+    background-color: linear-gradient(to top, rgba(97, 128, 216, 1), rgba(28, 228, 149, 1));
+    color: #FFF;
+}
+
+
 body {
     padding:0;
     margin:0;
   }
-header{
-    width: 100%;
+  .light-theme .header{
     background: linear-gradient(to top, #FFFF, rgba(204, 213, 174, 1));
+  }
+  .dark-theme .header{
+    background: linear-gradient(to top, rgba(18, 21, 38, 1), rgba(1, 1, 2, 1));
+  }
+.header{
+    width: 100%;
+    
 }
+
+.light-theme #progress-bar-container{
+    background-color: rgba(142, 188, 106, 1);
+}
+
+.dark-theme #progress-bar-container{
+    background-color: rgba(30, 224, 151, 1);
+}
+
 #progress-bar-container {
     width: 95%;
     height: 30px; /* Ajustez la hauteur de la barre de progression */
     margin: 20px auto;
     border-radius: 5px;
-    background-color: rgba(142, 188, 106, 1);
 }
 
+
+
+
+
+.light-theme #progress-bar{
+    background-color: rgba(77, 114, 60, 1);
+}
+.dark-theme #progress-bar{
+    background-color:rgba(100, 124, 219, 1);
+}
 #progress-bar {
     height: 100%;
     width: 0;
-    background-color: rgba(77, 114, 60, 1);
     border-radius: 5px;
     transition: width 0.3s ease;
 }
+
+
+
 
 #title{
     margin-left: 45%;
@@ -65,8 +114,6 @@ header{
 }
 .square-button{
     margin-top: 10px;
-    color: rgba(67, 53, 35, 1);
-    background-color: rgba(142, 188, 106, 1);
     text-align:center ;
     border-color: transparent;
     border-radius: 8px;
