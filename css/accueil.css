@@ -47,6 +47,7 @@ header{
 }
 #question-text{
     text-align: left;
+    padding: 7%;
 }
 #choix{
     text-align: center;
@@ -64,7 +65,7 @@ header{
     margin-left: 90px;
 }
 .square-button{
-    margin-top: 10px;
+    margin-top: 15%;
     color: rgba(67, 53, 35, 1);
     background-color: rgba(142, 188, 106, 1);
     text-align:center ;
@@ -99,12 +100,13 @@ header{
     max-width: 100%;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
 }
 .ALL{
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    
+    margin-bottom: 20px;
 }
 
 .square{
@@ -142,7 +144,7 @@ header{
 
 
 .theme-switch {
-    --toggle-size: 30px;
+    --toggle-size: 20px;
     /* the size is adjusted using font-size,
        this is not transform scale,
        so you can choose any size */
@@ -186,6 +188,7 @@ header{
     -o-transition: var(--transition);
     transition: var(--transition);
     position: relative;
+    margin : 20px;
   }
   
   .theme-switch__container::before {
