@@ -42,19 +42,25 @@ function init(){
 
 function updateProgressBar(percentage) {
 
-    // Mettre à jour la largeur de la barre de progression
-    progressBar.style.width = percentage + '%';
+    var sansPourcentage = parseFloat(progressBar.style.width) || 0;
+
+    sansPourcentage += parseFloat(percentage);
+
+    sansPourcentage = Math.min(100, Math.max(0, sansPourcentage));
+
+    progressBar.style.width = sansPourcentage + '%';
 
     // Mettre à jour la couleur de la barre de progression
 }
 
 // Exemple d'utilisation pour mettre à jour la progression
 // (vous pouvez appeler cette fonction avec le pourcentage de progression et la couleur souhaités)
-updateProgressBar(10);
+
 
 function chooseAnswer(number){
     score += questionsData.questions[questionNumber].answers[number].Etat[0].Point;
     updateEarthState();
+    updateProgressBar(6.666667);
     displayNextQuestion();
 }
 
