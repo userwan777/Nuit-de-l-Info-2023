@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EASTER EGG</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="centrer">
+        <img id="egg" src="../images/egg.png" onclick="startAnimation()" style="cursor: pointer;">
+    </div>
+    <img id="egg1" src="../images/egg1.png" style="display: none;">
+    <img id="egg2" src="../images/egg2.png" style="display: none;">
+
+    <script>
+        function startAnimation() {
+            // Cacher l'œuf initial
+            document.getElementById('egg').style.display = 'none';
+
+            // Afficher egg1 après un délai
+            setTimeout(function() {
+                document.getElementById('egg1').style.display = 'block';
+            }, 100); // ajustez la durée du délai selon vos besoins
+
+            // Afficher egg2 après un autre délai
+            setTimeout(function() {
+                document.getElementById('egg1').style.display = 'none';
+            }, 300); // ajustez la durée du délai selon vos besoins
+
+             // Afficher egg2 après un autre délai
+             setTimeout(function() {
+                document.getElementById('egg2').style.display = 'block';
+                 // Redirection vers '../jeu/index.html' après un autre délai
+
+                 setTimeout(function() {
+                    window.location.href = '../jeu/index.html';
+                }, 450); // ajustez la durée du délai selon vos besoins
+
+            }, 500); // ajustez la durée du délai selon vos besoins
+            
+        }
+    </script>
+</body>
+</html>
