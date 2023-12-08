@@ -95,6 +95,7 @@ body {
 }
 #question-text{
     text-align: left;
+    padding: 7%;
 }
 #choix{
     text-align: center;
@@ -112,12 +113,13 @@ body {
     margin-left: 90px;
 }
 .square-button{
-    margin-top: 10px;
+    margin-top: 15%;
     text-align:center ;
     border-color: transparent;
     border-radius: 8px;
     padding: 30px 30px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
 }
 .light-theme .square-button {
     background-color: rgba(142, 188, 106, 1);
@@ -129,10 +131,12 @@ body {
 }
 .light-theme .square-button:hover {
     background-color: rgba(77, 114, 60, 1);
+    cursor: pointer;
     color:rgba(211, 173, 123, 1); /* Couleur au survol du bouton */
 }
 .dark-theme .square-button:hover {
     background: rgba(15, 116, 77, 1);
+    cursor: pointer;
 }
 #image-container{
     margin-top: 5px;
@@ -156,6 +160,7 @@ body {
     max-width: 100%;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
 }
 
 #earth-image {
@@ -171,7 +176,7 @@ body {
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    
+    margin-bottom: 20px;
 }
 
 .square{
@@ -215,7 +220,7 @@ body {
 
 
 .theme-switch {
-    --toggle-size: 30px;
+    --toggle-size: 20px;
     /* the size is adjusted using font-size,
        this is not transform scale,
        so you can choose any size */
@@ -236,6 +241,7 @@ body {
     --back-clouds-color: #AACADF;
     --transition: .5s cubic-bezier(0, -0.02, 0.4, 1.25);
     --circle-transition: .3s cubic-bezier(0, -0.02, 0.35, 1.17);
+
   }
   
   .theme-switch, .theme-switch *, .theme-switch *::before, .theme-switch *::after {
@@ -259,6 +265,7 @@ body {
     -o-transition: var(--transition);
     transition: var(--transition);
     position: relative;
+    margin : 20px;
   }
   
   .theme-switch__container::before {
