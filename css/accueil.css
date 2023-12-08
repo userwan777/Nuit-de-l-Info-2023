@@ -6,14 +6,42 @@ body{
     display: flex; 
     flex-direction: column; 
 }
+.light-theme {
+    background-color: #FFFF;/
+  }
+  
+  /* Styles pour le thème sombre */
+  .dark-theme {
+    background-color: rgba(18, 21, 38, 1);
+
+  }
+  
+ 
+
+
 body {
     padding:0;
     margin:0;
   }
-header{
-    width: 100%;
+  .light-theme .header{
     background: linear-gradient(to top, #FFFF, rgba(204, 213, 174, 1));
+  }
+  .dark-theme .header{
+    background: linear-gradient(to top, rgba(18, 21, 38, 1), rgba(1, 1, 2, 1));
+  }
+.header{
+    width: 100%;
+    
 }
+
+.light-theme #progress-bar-container{
+    background-color: rgba(142, 188, 106, 1);
+}
+
+.dark-theme #progress-bar-container{
+    background-color: rgba(30, 224, 151, 1);
+}
+
 #progress-bar-container {
     width: 95%;
     height: 30px; /* Ajustez la hauteur de la barre de progression */
@@ -40,14 +68,18 @@ header{
 
 
 
-
+.dark-theme #title{
+    color: #fff;
+}
 #title{
     margin-left: 45%;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #question-container{
     margin-top: 5px;
-    background-color: rgba(142, 188, 106, 1);
+
     border-radius: 8px;
     box-shadow: 3px;
     max-width: 400px;
@@ -55,21 +87,23 @@ header{
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
     
 }
+.light-theme #question-container{   
+     background-color: rgba(142, 188, 106, 1);
+    }
+.dark-theme #question-container{
+    background-color:rgba(217, 217, 217, 0.38)
+}
 #question-text{
     text-align: left;
-    padding: 7%;
 }
-
 #choix{
     text-align: center;
 }
-
 #answer-List {
     padding-left: 0; 
     list-style-type: none; 
     text-align: center; 
 }
-
 #button2{
     margin-left: 90px;
 }
@@ -77,20 +111,28 @@ header{
 #button3{
     margin-left: 90px;
 }
-
 .square-button{
     margin-top: 10px;
-    color: rgba(67, 53, 35, 1);
-    background-color: rgba(142, 188, 106, 1);
     text-align:center ;
     border-color: transparent;
     border-radius: 8px;
     padding: 30px 30px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
-.square-button:hover {
+.light-theme .square-button {
+    background-color: rgba(142, 188, 106, 1);
+    color: rgba(67, 53, 35, 1);
+}
+.dark-theme .square-button {
+    background: linear-gradient(to top, rgba(97, 128, 216, 2), rgba(28, 228, 149, 2));
+    color: #FFF;
+}
+.light-theme .square-button:hover {
     background-color: rgba(77, 114, 60, 1);
     color:rgba(211, 173, 123, 1); /* Couleur au survol du bouton */
+}
+.dark-theme .square-button:hover {
+    background: rgba(15, 116, 77, 1);
 }
 #image-container{
     margin-top: 5px;
@@ -114,13 +156,12 @@ header{
     max-width: 100%;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
-    object-fit: cover;
 }
 .ALL{
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    margin-bottom: 20px;
+    
 }
 
 .square{
@@ -135,11 +176,17 @@ header{
 
 }
 
+.light-theme #first-square{
+    background-color:rgba(204, 204, 204, 1) ;
+}
+.dark-theme #first-square{
+    background-color: #1D1F2C;
+}
 #first-square{
     height: 45%;
     width: 500px;
     border-radius: 5px;
-    background-color:rgba(204, 204, 204, 1) ;
+    
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
 
@@ -158,7 +205,7 @@ header{
 
 
 .theme-switch {
-    --toggle-size: 20px;
+    --toggle-size: 30px;
     /* the size is adjusted using font-size,
        this is not transform scale,
        so you can choose any size */
@@ -202,7 +249,6 @@ header{
     -o-transition: var(--transition);
     transition: var(--transition);
     position: relative;
-    margin : 20px;
   }
   
   .theme-switch__container::before {
