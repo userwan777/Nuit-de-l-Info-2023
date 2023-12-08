@@ -4,15 +4,18 @@ body{
     background: #FBEEC1;
 
 }
+
 html, body {
     padding:0;
     margin:0;
-  }
+}
+
 header{
     border-style:solid ;
     width: 100%;
     background: linear-gradient(to top, #FBEEC1, rgba(225, 169, 97, 1));
 }
+
 #progress-bar-container {
     width: 80%; /* Ajustez la largeur de la barre de progression */
     margin: 20px auto;
@@ -40,21 +43,27 @@ header{
     box-shadow: 3px;
     max-width: 400px;
 }
+
 #choix{
     padding-left: 45%;
 }
+
 #answer-List{
     padding-left: 50%;
 }
+
 #button2{
     margin-left: 100px;
 }
+
 #button1{
     margin-left: 10%;
 }
+
 #button3{
     margin-left: 100px;
 }
+
 .square-button{
     color: rgba(67, 53, 35, 1);
     background-color: rgba(188, 152, 106, 1);

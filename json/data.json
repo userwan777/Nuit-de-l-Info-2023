@@ -1,0 +1,113 @@
+{
+  "questions": [
+      {
+          "id": 1,
+          "text": "Quel est l’intérêt du changement d’heure ?",
+          "answers": [
+              {
+                  "id": 1,
+                  "text": "De plus dormir",
+                  "Etat": [
+                      {
+                          "typeEtat": "CHAOS",
+                          "Point": 1
+                      }
+                  ]
+              },
+              {
+                  "id": 2,
+                  "text": "D’économiser de l’énergie",
+                  "Etat": [
+                      {
+                          "typeEtat": "IDEAL",
+                          "Point": 2
+                      }
+                  ]
+              },
+              {
+                  "id": 3,
+                  "text": "De rentrer avec le soleil",
+                  "Etat": [
+                      {
+                          "typeEtat": "NEUTRE",
+                          "Point": 2
+                      }
+                  ]
+              }
+          ]
+      },
+      {
+        "id": 2,
+        "text": "Quel est l’élément qui consomme le plus d’énergie ?",
+        "answers": [
+            {
+                "id": 1,
+                "text": "Transport",
+                "Etat": [
+                    {
+                        "typeEtat": "IDEAL",
+                        "Point": 1
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "text": "Production",
+                "Etat": [
+                    {
+                        "typeEtat": "CHAOS",
+                        "Point": 3
+                    }
+                ]
+            },
+            {
+                "id": 3,
+                "text": "Agriculture",
+                "Etat": [
+                    {
+                        "typeEtat": "NEUTRE",
+                        "Point": 2
+                    }
+                ]
+            }
+        ]
+    },
+    {
+      "id": 3,
+      "text": "Parmi ces trois proposition laquelle est vrai ? ",
+      "answers": [
+          {
+              "id": 1,
+              "text": "Les actions individuelles n’ont pas d’impact face aux bouleversements écologiques",
+              "Etat": [
+                  {
+                      "typeEtat": "IDEAL",
+                      "Point": 1
+                  }
+              ]
+          },
+          {
+              "id": 2,
+              "text": "Production",
+              "Etat": [
+                  {
+                      "typeEtat": "CHAOS",
+                      "Point": 3
+                  }
+              ]
+          },
+          {
+              "id": 3,
+              "text": "Agriculture",
+              "Etat": [
+                  {
+                      "typeEtat": "NEUTRE",
+                      "Point": 2
+                  }
+              ]
+          }
+      ]
+  },
+
+  ]
+}
