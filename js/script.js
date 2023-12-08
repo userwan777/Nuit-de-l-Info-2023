@@ -14,4 +14,4 @@ function updateProgressBar(percentage) {
 
 // Exemple d'utilisation pour mettre à jour la progression
 // (vous pouvez appeler cette fonction avec le pourcentage de progression et la couleur souhaités)
-updateProgressBar(30);
+updateProgressBar(100);
