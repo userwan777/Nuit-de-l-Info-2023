@@ -7,14 +7,17 @@ body{
     display: flex; 
     flex-direction: column; 
 }
+
 body {
     padding:0;
     margin:0;
-  }
+}
+
 header{
     width: 100%;
     background: linear-gradient(to top, #FFFF, rgba(204, 213, 174, 1));
 }
+
 #progress-bar-container {
     width: 95%;
     height: 30px; /* Ajustez la hauteur de la barre de progression */
@@ -49,14 +52,17 @@ header{
     text-align: left;
     padding: 7%;
 }
+
 #choix{
     text-align: center;
 }
+
 #answer-List {
     padding-left: 0; 
     list-style-type: none; 
     text-align: center; 
 }
+
 #button2{
     margin-left: 90px;
 }
@@ -64,6 +70,7 @@ header{
 #button3{
     margin-left: 90px;
 }
+
 .square-button{
     margin-top: 15%;
     color: rgba(67, 53, 35, 1);
