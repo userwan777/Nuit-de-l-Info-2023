@@ -83,3 +83,4 @@ function updateEarthState(){
     else if(score >= 1){ planetImage.src = "../images/tension_accrue.png"; }
     else{ planetImage.src = "../images/sombre_desolation.png"; }
 }
+
