@@ -6,7 +6,7 @@
       "answers": [
         {
           "id": 0,
-          "text": "De plus dormir",
+          "text": "De dormir plus",
           "Etat": [
             {
               "typeEtat": "CHAOS",
@@ -26,7 +26,7 @@
         },
         {
           "id": 2,
-          "text": "De rentrer avec le soleil",
+          "text": "De rentrer chez soi en plein soleil",
           "Etat": [
             {
               "typeEtat": "NEUTRE",
@@ -38,7 +38,7 @@
     },
     {
       "id": 1,
-      "text": "terra veut réchauffer de manière éfficace cette hiver, elle veut donc changer son chauffage fort en utilisation d'énergie fossile par une énergie renouvelable ! Quelle est le meilleur choix pour elle ?",
+      "text": "Terra veut se réchauffer de manière efficace cet hiver, elle veut donc remplacer son chauffage fort utilisant des énergies fossiles par une énergie renouvelable ! Quel est le meilleur choix pour elle ?",
       "answers": [
         {
           "id": 0,
@@ -52,7 +52,7 @@
         },
         {
           "id": 1,
-          "text": "Pompe à chaleur géothermique ",
+          "text": "Pompe à chaleur géothermique",
           "Etat": [
             {
               "typeEtat": "CHAOS",
@@ -62,7 +62,7 @@
         },
         {
           "id": 2,
-          "text": "système chauffage éolien",
+          "text": "Système chauffage éolien",
           "Etat": [
             {
               "typeEtat": "NEUTRE",
@@ -88,7 +88,7 @@
         },
         {
           "id": 1,
-          "text": "L’électricité qui provienne de ressources renouvelable, ne rejettent que peu ou pas de gaz à effet de serre. ",
+          "text": "L’électricité qui provient de ressources renouvelables ne rejette que peu ou pas de gaz à effet de serre.",
           "Etat": [
             {
               "typeEtat": "CHAOS",
@@ -98,7 +98,7 @@
         },
         {
           "id": 2,
-          "text": "L’électricité qui provienne de ressources renouvelable, ne rejettent que peu ou pas de gaz à effet de serre",
+          "text": "Réduire les émissions de CO2 est trop coûteux",
           "Etat": [
             {
               "typeEtat": "NEUTRE",
@@ -110,7 +110,7 @@
     },
     {
       "id": 3,
-      "text": "Terra se demande comment la réduction de l'abattage des forêts pourrait avoir des implications positives.",
+      "text": "Terra se demande comment la diminution de l'abattage des forêts pourrait avoir des implications positives.",
       "answers": [
         {
           "id": 0,
@@ -124,7 +124,7 @@
         },
         {
           "id": 1,
-          "text": "Mieux respirer",
+          "text": "De mieux respirer",
           "Etat": [
             {
               "typeEtat": "NEUTRE",
@@ -134,7 +134,7 @@
         },
         {
           "id": 2,
-          "text": "L’électricité qui provienne de ressources renouvelable, ne rejettent que peu ou pas de gaz à effet de serre",
+          "text": "De faire plus de feuilles",
           "Etat": [
             {
               "typeEtat": "CHAOS",
@@ -146,7 +146,7 @@
     },
     {
       "id": 4,
-      "text": "Terra se questionne sur les raisons pour lesquelles on recommande d'éviter l'usage des jets privés.",
+      "text": "Terra se questionne sur les raisons pour lesquelles on ne recommande pas l'usage des jets privés.",
       "answers": [
         {
           "id": 0,
@@ -170,7 +170,7 @@
         },
         {
           "id": 2,
-          "text": "Parce que c’est ça pollue autant qu’on avion pour un nombre réduit de passagers",
+          "text": "Parce que c’est ça pollue autant qu’un avion pour un nombre réduit de passagers",
           "Etat": [
             {
               "typeEtat": "IDEAL",
@@ -206,7 +206,7 @@
         },
         {
           "id": 2,
-          "text": "Parce que c’est ça pollue autant qu’on avion pour un nombre réduit de passagers",
+          "text": "Oui, pour en faire d'autres usages",
           "Etat": [
             {
               "typeEtat": "IDEAL",
@@ -268,7 +268,7 @@
         },
         {
           "id": 1,
-          "text": "Réduire l'utilisation de plastique à usage unique en optant pour des alternatives durables comme des sacs réutilisables.",
+          "text": "Réduire l'utilisation de plastiques à usage unique en optant pour des alternatives durables comme des sacs réutilisables.",
           "Etat": [
             {
               "typeEtat": "NEUTRE",
@@ -278,7 +278,7 @@
         },
         {
           "id": 2,
-          "text": "Encourager l'utilisation intensive de feux de cheminée pour le chauffage domestique, afin de ne pas utilisé d'électricité",
+          "text": "Encourager l'utilisation intensive de feux de cheminée pour le chauffage domestique, afin de ne pas utiliser d'électricité",
           "Etat": [
             {
               "typeEtat": "IDEAL",
@@ -294,7 +294,7 @@
       "answers": [
         {
           "id": 0,
-          "text": "De faire plus de feuille",
+          "text": "Pour ne pas s'abîmer la peau",
           "Etat": [
             {
               "typeEtat": "CHAOS",
@@ -304,7 +304,7 @@
         },
         {
           "id": 1,
-          "text": "Mieux respirer",
+          "text": "Pour réduire la facture mensuelle",
           "Etat": [
             {
               "typeEtat": "NEUTRE",
@@ -314,7 +314,7 @@
         },
         {
           "id": 2,
-          "text": "De libérer moins de carbone",
+          "text": "Pour gaspiller moins d'eau",
           "Etat": [
             {
               "typeEtat": "IDEAL",
@@ -366,7 +366,7 @@
       "answers": [
         {
           "id": 0,
-          "text": "L’évaporation de l’eau.",
+          "text": "L’évaporation de l’eau",
           "Etat": [
             {
               "typeEtat": "CHAOS",
@@ -376,7 +376,7 @@
         },
         {
           "id": 1,
-          "text": "Le Soleil.",
+          "text": "Le Soleil",
           "Etat": [
             {
               "typeEtat": "NEUTRE",
@@ -434,7 +434,43 @@
     },
     {
       "id": 12,
-      "text": "Terra veut s’acheter un nouveau t-shirt, mais elle se demande si cela serait respecter de l'environnement, à ton avis, combien faut t-il de litre pour faire un seul t-shirt ?",
+      "text": "Terra veut s’acheter un nouveau t-shirt, mais elle se demande si cela respecterait l'environnement, à ton avis, combien faut-il de litres d'eau pour faire un seul t-shirt ?",
+      "answers": [
+        {
+          "id": 0,
+          "text": "15 a 30 L",
+          "Etat": [
+            {
+              "typeEtat": "CHAOS",
+              "Point": -2.5
+            }
+          ]
+        },
+        {
+          "id": 1,
+          "text": "500 a 1000 L",
+          "Etat": [
+            {
+              "typeEtat": "NEUTRE",
+              "Point": 0
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "2500 à 3000 L",
+          "Etat": [
+            {
+              "typeEtat": "IDEAL",
+              "Point": 2.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "text": "Terra veut s’acheter un nouveau t-shirt, mais elle se demande si cela serait respectueux de l'environnement, à ton avis, combien faut t-il de litre pour faire un seul t-shirt ?",
       "answers": [
         {
           "id": 0,
@@ -467,182 +503,78 @@
           ]
         }
       ]
-    },{
-    "id": 13,
-    "text": "Terra veut s’acheter un nouveau t-shirt, mais elle se demande si cela serait respecter de l'environnement, à ton avis, combien faut t-il de litre pour faire un seul t-shirt ?",
-    "answers": [
+    },
+    {
+      "id": 14,
+      "text": "Comment chacun de nous peut-il contribuer à la réduction de son empreinte carbone au quotidien ?",
+      "answers": [
         {
-            "id": 0,
-            "text": "15 a 30 l",
-            "Etat": [
-                {
-                    "typeEtat": "CHAOS",
-                    "Point": -2.5
-                }
-            ]
+          "id": 0,
+          "text": "Consommer plus de viande",
+          "Etat": [
+            {
+              "typeEtat": "CHAOS",
+              "Point": -2.5
+            }
+          ]
         },
         {
-            "id": 1,
-            "text": "500 a 1000 l",
-            "Etat": [
-                {
-                    "typeEtat": "NEUTRE",
-                    "Point": 0
-                }
-            ]
+          "id": 1,
+          "text": "Laisser les fenêtres ouvertes en hiver pour équilibrer les températures intérieure et extérieure",
+          "Etat": [
+            {
+              "typeEtat": "NEUTRE",
+              "Point": 0
+            }
+          ]
         },
         {
-            "id": 2,
-            "text": "2500 à 3000 l",
-            "Etat": [
-                {
-                    "typeEtat": "IDEAL",
-                    "Point": 2.5
-                }
-            ]
+          "id": 2,
+          "text": "Privilégier les transports en commun, le covoiturage ou le vélo pour réduire l'utilisation de la voiture individuelle. ",
+          "Etat": [
+            {
+              "typeEtat": "IDEAL",
+              "Point": 2.5
+            }
+          ]
         }
-    ]
-  },
-  {
-    "id": 14,
-    "text": "Comment chacun de nous peut-il contribuer à la réduction de son empreinte carbone au quotidien ?",
-    "answers": [
+      ]
+    },
+    {
+      "id": 15,
+      "text": "Terra souhaite se détendre et veut faire une activité mais elle se pose une question, laquelle dans ces trois choix, a-t-elle la plus grande empreinte carbonne ?",
+      "answers": [
         {
-            "id": 0,
-            "text": "Consommer plus de viande",
-            "Etat": [
-                {
-                    "typeEtat": "CHAOS",
-                    "Point": -2.5
-                }
-            ]
+          "id": 0,
+          "text": "Télévision",
+          "Etat": [
+            {
+              "typeEtat": "CHAOS",
+              "Point": -2.5
+            }
+          ]
         },
         {
-            "id": 1,
-            "text": "Laisser les fenêtres ouvertes en hiver pour équilibrer les températures intérieure et extérieure",
-            "Etat": [
-                {
-                    "typeEtat": "NEUTRE",
-                    "Point": 0
-                }
-            ]
+          "id": 1,
+          "text": "Console de jeux",
+          "Etat": [
+            {
+              "typeEtat": "NEUTRE",
+              "Point": 0
+            }
+          ]
         },
         {
-            "id": 2,
-            "text": "Privilégier les transports en commun, le covoiturage ou le vélo pour réduire l'utilisation de la voiture individuelle. ",
-            "Etat": [
-                {
-                    "typeEtat": "IDEAL",
-                    "Point": 2.5
-                }
-            ]
+          "id": 2,
+          "text": "Streaming",
+          "Etat": [
+            {
+              "typeEtat": "IDEAL",
+              "Point": 2.5
+            }
+          ]
         }
-    ]
-  },{
-    "id": 14,
-    "text": "Comment chacun de nous peut-il contribuer à la réduction de son empreinte carbone au quotidien ?",
-    "answers": [
-        {
-            "id": 0,
-            "text": "Consommer plus de viande",
-            "Etat": [
-                {
-                    "typeEtat": "CHAOS",
-                    "Point": -2.5
-                }
-            ]
-        },
-        {
-            "id": 1,
-            "text": "Laisser les fenêtres ouvertes en hiver pour équilibrer les températures intérieure et extérieure",
-            "Etat": [
-                {
-                    "typeEtat": "NEUTRE",
-                    "Point": 0
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "text": "Privilégier les transports en commun, le covoiturage ou le vélo pour réduire l'utilisation de la voiture individuelle. ",
-            "Etat": [
-                {
-                    "typeEtat": "IDEAL",
-                    "Point": 2.5
-                }
-            ]
-        }
-    ]
-  },{
-    "id": 15,
-    "text": "Terra souhaite se détendre et veut faire une activité mais elle se pose une question, laquelle dans ces trois choix, a-telle la plus grande empreinte carbonne ?",
-    "answers": [
-        {
-            "id": 0,
-            "text": "Télévisions",
-            "Etat": [
-                {
-                    "typeEtat": "CHAOS",
-                    "Point": -2.5
-                }
-            ]
-        },
-        {
-            "id": 1,
-            "text": "Jeu video console ",
-            "Etat": [
-                {
-                    "typeEtat": "NEUTRE",
-                    "Point": 0
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "text": "Streaming",
-            "Etat": [
-                {
-                    "typeEtat": "IDEAL",
-                    "Point": 2.5
-                }
-            ]
-        }
-    ]
-  },{
-    "id": 16,
-    "text": "Terra souhaite se détendre et veut faire une activité mais elle se pose une question, laquelle dans ces trois choix, a-telle la plus grande empreinte carbonne ?",
-    "answers": [
-        {
-            "id": 0,
-            "text": "Télévisions",
-            "Etat": [
-                {
-                    "typeEtat": "CHAOS",
-                    "Point": -2.5
-                }
-            ]
-        },
-        {
-            "id": 1,
-            "text": "Jeu video console",
-            "Etat": [
-                {
-                    "typeEtat": "NEUTRE",
-                    "Point": 0
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "text": "Streaming",
-            "Etat": [
-                {
-                    "typeEtat": "IDEAL",
-                    "Point": 2.5
-                }
-            ]
-        }
-    ]
-  }
+      ]
+    }
   ]
 }

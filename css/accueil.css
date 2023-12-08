@@ -61,7 +61,7 @@ body {
 }
 #progress-bar {
     height: 100%;
-    width: 0;
+    width: 0%;
     border-radius: 5px;
     transition: width 0.3s ease;
 }
@@ -79,7 +79,6 @@ body {
 
 #question-container{
     margin-top: 5px;
-
     border-radius: 8px;
     box-shadow: 3px;
     max-width: 400px;
@@ -143,7 +142,6 @@ body {
     max-width: 800px;
     width: 500px;
     height: 800px;
-    
 }
 
 .main-container{
