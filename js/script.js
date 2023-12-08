@@ -60,18 +60,17 @@ function updateProgressBar(percentage) {
 function chooseAnswer(number){
     score += questionsData.questions[questionNumber].answers[number].Etat[0].Point;
     updateEarthState();
-    updateProgressBar(6.666667);
-    displayNextQuestion();
+    updateProgressBar(6.666666666666667);
+    questionNumber += 1;
+    if(questionNumber == questionsData.questions.length){
+        alert("Quiz terminé !");
+    } else { displayNextQuestion(); }
 }
 
 function displayNextQuestion(){
     questionText.textContent = questionsData.questions[questionNumber].text;
     for(let i = 0 ; i < answersList.children.length ; i++){
         answersList.children[i].innerHTML = '<h3>' + questionsData.questions[questionNumber].answers[i].text + '</h3>';
-    }
-    questionNumber += 1;
-    if(questionNumber == questionsData.questions.length){
-        alert("Quiz terminé !");
     }
 }
 

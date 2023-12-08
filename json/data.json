@@ -434,42 +434,6 @@
     },
     {
       "id": 12,
-      "text": "Terra veut s’acheter un nouveau t-shirt, mais elle se demande si cela respecterait l'environnement, à ton avis, combien faut-il de litres d'eau pour faire un seul t-shirt ?",
-      "answers": [
-        {
-          "id": 0,
-          "text": "15 a 30 L",
-          "Etat": [
-            {
-              "typeEtat": "CHAOS",
-              "Point": -2.5
-            }
-          ]
-        },
-        {
-          "id": 1,
-          "text": "500 a 1000 L",
-          "Etat": [
-            {
-              "typeEtat": "NEUTRE",
-              "Point": 0
-            }
-          ]
-        },
-        {
-          "id": 2,
-          "text": "2500 à 3000 L",
-          "Etat": [
-            {
-              "typeEtat": "IDEAL",
-              "Point": 2.5
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 13,
       "text": "Terra veut s’acheter un nouveau t-shirt, mais elle se demande si cela serait respectueux de l'environnement, à ton avis, combien faut t-il de litre pour faire un seul t-shirt ?",
       "answers": [
         {
@@ -505,7 +469,7 @@
       ]
     },
     {
-      "id": 14,
+      "id": 13,
       "text": "Comment chacun de nous peut-il contribuer à la réduction de son empreinte carbone au quotidien ?",
       "answers": [
         {
@@ -541,7 +505,7 @@
       ]
     },
     {
-      "id": 15,
+      "id": 14,
       "text": "Terra souhaite se détendre et veut faire une activité mais elle se pose une question, laquelle dans ces trois choix, a-t-elle la plus grande empreinte carbonne ?",
       "answers": [
         {
