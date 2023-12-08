@@ -6,53 +6,14 @@ body{
     display: flex; 
     flex-direction: column; 
 }
-.light-theme {
-    background-color: #FFFF;/
-  }
-  
-  /* Styles pour le thème sombre */
-  .dark-theme {
-    background-color: rgba(18, 21, 38, 1);
-
-  }
-  
-  .light-theme .square-button {
-    background-color: rgba(142, 188, 106, 1);
-    color: rgba(67, 53, 35, 1);
-}
-
-
-
-/* Styles pour le thème sombre sur les éléments spécifiques */
-.dark-theme .square-button {
-    background-color: linear-gradient(to top, rgba(97, 128, 216, 1), rgba(28, 228, 149, 1));
-    color: #FFF;
-}
-
-
 body {
     padding:0;
     margin:0;
   }
-  .light-theme .header{
-    background: linear-gradient(to top, #FFFF, rgba(204, 213, 174, 1));
-  }
-  .dark-theme .header{
-    background: linear-gradient(to top, rgba(18, 21, 38, 1), rgba(1, 1, 2, 1));
-  }
-.header{
+header{
     width: 100%;
-    
+    background: linear-gradient(to top, #FFFF, rgba(204, 213, 174, 1));
 }
-
-.light-theme #progress-bar-container{
-    background-color: rgba(142, 188, 106, 1);
-}
-
-.dark-theme #progress-bar-container{
-    background-color: rgba(30, 224, 151, 1);
-}
-
 #progress-bar-container {
     width: 95%;
     height: 30px; /* Ajustez la hauteur de la barre de progression */
@@ -96,15 +57,19 @@ body {
 }
 #question-text{
     text-align: left;
+    padding: 7%;
 }
+
 #choix{
     text-align: center;
 }
+
 #answer-List {
     padding-left: 0; 
     list-style-type: none; 
     text-align: center; 
 }
+
 #button2{
     margin-left: 90px;
 }
@@ -112,8 +77,11 @@ body {
 #button3{
     margin-left: 90px;
 }
+
 .square-button{
     margin-top: 10px;
+    color: rgba(67, 53, 35, 1);
+    background-color: rgba(142, 188, 106, 1);
     text-align:center ;
     border-color: transparent;
     border-radius: 8px;
@@ -146,12 +114,13 @@ body {
     max-width: 100%;
     border-radius: 8px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+    object-fit: cover;
 }
 .ALL{
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    
+    margin-bottom: 20px;
 }
 
 .square{
@@ -189,7 +158,7 @@ body {
 
 
 .theme-switch {
-    --toggle-size: 30px;
+    --toggle-size: 20px;
     /* the size is adjusted using font-size,
        this is not transform scale,
        so you can choose any size */
@@ -233,6 +202,7 @@ body {
     -o-transition: var(--transition);
     transition: var(--transition);
     position: relative;
+    margin : 20px;
   }
   
   .theme-switch__container::before {
